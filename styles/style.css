@@ -185,7 +185,21 @@ footer h4:hover {
     justify-content: center;
     gap: 3rem;
 }
-
+.socials i{
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+    color: black;
+    border-radius: 50%;
+    border: 2px solid black;
+    padding: 1rem
+}
+.socials i:nth-child(1){
+    padding: 1rem 1.2rem
+}
+.socials i:hover{
+    color: var(--strong-cyan);
+    border-color: var(--strong-cyan);
+}
 @media (min-width:960px){
     .btns {
         flex-flow: row;
@@ -228,7 +242,6 @@ footer h4:hover {
     .showcase .feature:nth-child(3){
         grid-area:d;
     }
-
     .icons {
         flex-flow: row;
         width: 80vw;
